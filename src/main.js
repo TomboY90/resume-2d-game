@@ -125,7 +125,7 @@ k.scene("main", async () => {
         player.play("walk-side");
       }
 
-      player.direction = "right"
+      player.direction = "left"
       return;
     }
 
@@ -137,7 +137,7 @@ k.scene("main", async () => {
         player.play("walk-side");
       }
 
-      player.direction = "left"
+      player.direction = "right"
       return;
     }
   })
